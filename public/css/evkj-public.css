@@ -1,0 +1,239 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ * @version 2023.1
+ */
+.evkj-table-green,
+.evkj-row-green,
+.evkj-cell-green{
+    
+    background-color: #44ff44;
+    
+}
+
+.evkj-table-white,
+.evkj-row-white,
+.evkj-cell-white {
+    
+    background-color: #fff;
+    
+}
+
+.evkj-table-purple,
+.evkj-row-purple,
+.evkj-cell-purple {
+    
+    background-color: #ff44ff;
+    
+}
+
+.evkj-table-black,
+.evkj-row-black,
+.evkj-cell-black {
+    
+    background-color: #aaa ;
+    
+}
+.evkj-table-red,
+.evkj-row-red,
+.evkj-cell-red {
+    
+    background-color: #ff4444;
+    
+}
+
+.evkj-cell-green,
+.evkj-cell-white,
+.evkj-cell-purple,
+.evkj-cell-black,
+.evkj-cell-red {
+    
+    background-color: white;
+    
+}
+
+
+.evkj-widget, .evkj-shortcode {
+    
+    background-color : #fff;
+    -webkit-transition: height 4s; /* For Safari 3.1 to 6.0 */
+    transition: height 4s;
+
+}
+
+.evkj-widget:hover, .evkj-shortcode:hover {
+
+    height : 100%;
+}
+
+
+.evkj-widget:after, .evkj-shortcode:after {
+
+    content : "";
+    clear: both;
+    
+}
+.evkj-shortcode-big {
+    float: left;
+    border: 1px solid #ccc;
+}
+
+.evkj-shortcode-small {
+    
+}
+
+.evkj-copyright {
+   color : blue; 
+   font-size : 0.5em;
+   margin: 0 5% 1em;
+}
+
+
+.evkj-table{
+    display: table; 
+    flex-wrap: wrap;
+    margin: 0.5em;
+    padding: 1em;
+    border-radius : 1em;      
+}
+
+.evkj-row {
+    
+    background-color : white;
+
+    border: 1px solid #AAA;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius : 10px;
+    margin : 2% 2% 1% 1%;
+    padding: 0.1em;
+    
+    display: table;
+ /*   flex-wrap: wrap; */ 
+    float: left;
+
+
+}
+
+.evkj-fields:after {
+
+    content: "";
+    display: flex;
+    clear: both;
+    
+}
+
+.evkj-field-label {
+    float: left;
+    width:40%;
+   
+}
+
+.evkj-field-value {
+    
+    float: left;
+    width:60%;
+   
+}
+  
+.evkj-row:after {
+    content: "";
+    display: flex;
+    clear: both;
+    
+}
+
+.evkj-row-fields {
+    width: 100%;
+}
+.evkj-row-fields:after {
+
+    content: "";
+    display: flex;
+    clear: both;
+   
+}
+.evkj-cell, .evkj-head {
+
+    padding: 6px 6px;
+
+}
+
+.evkj-table-head {
+	font-weight: bold;
+}
+
+.evkj-table-heading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+
+.evkj-table-foot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+
+.evkj-table-body {
+    
+    display: wrap;
+	flex-wrap: wrap; 
+    /* display: table-row-group;
+     */
+}
+
+.evkj-litdate,
+.evkj-nextdate
+
+{
+
+    width:100%;
+    font-size : 1.5em;
+    text-align: center;
+
+}
+
+
+.evkj-nextdate
+{
+    font-size : 1.0em;
+}
+
+.evkj-cell,
+.evkj-cell-litdate,
+.evkj-cell-nextdate,
+
+{
+    float: left;
+    width: 50%;
+}
+
+.evkj-h1 {
+    flex-wrap: wrap; 
+    width : 100%;
+}
+
+@media screen and (max-device-width : 800px) {
+    .evkj-table-white,
+    .evkj-litdate,
+    .evkj-nextdate,
+    .evkj-row, 
+    .evkj-head,
+    .evkj-cell {
+    width: 100%;
+  }
+}
+
+@media screen and (max-device-width : 600px) {
+    .evkj-table-white,
+    .evkj-litdate,
+    .evkj-nextdate,
+    .evkj-row, 
+    .evkj-head,
+    .evkj-cell, 
+    .evkj-field-label,
+    .evkj-field-value {
+    
+        width:100%;
+    }
+}
